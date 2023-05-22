@@ -1,4 +1,4 @@
-# Tinderbotz
+# Tinderbots
 **Consider giving a ⭐ if you like the project!**
 ## Project
 <!-- PROJECT LOGO -->
@@ -13,14 +13,8 @@
   <p align="center">
     Tinder web automation and scraper.
     <br />
-    <a href="https://github.com/frederikme/TinderBot/blob/master/DOCUMENTATION.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/extfancy/TinderBot/blob/master/DOCUMENTATION.md"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="#demonstration">View Demo</a>
-    ·
-    <a href="https://github.com/frederikme/TinderBot/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
-    ·
-    <a href="https://github.com/frederikme/TinderBot/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
   </p>
 </p>
 
@@ -38,9 +32,6 @@
   * [Demo](#demonstration)
 * [Example Data Analysis](#example-data-analysis)
 * [Avoiding the Ban](#how-to-avoid-the-ban)
-* [Support the Repository](#support-the-repository)
-* [Other Tinder Repositories](#other-tinder-repositories)
-* [Disclaimer](#disclaimer)
 
 <!-- ABOUT THE PROJECT -->
 ## About the Project
@@ -60,14 +51,11 @@ I managed to succesfully create a bot that could: </br>
 * Sending GIFS and songs
 * Unmatching
 
-If you feel like diving right in, the [quickstart.py](https://github.com/frederikme/TinderBot/blob/master/quickstart.py) will help you be right on track.</br>
-If you're new to coding and just want the script to automatically like, the [auto_swipe.py](https://github.com/frederikme/TinderBot/blob/master/auto_swipe.py) would be what you're looking for!</br>
+If you feel like diving right in, the [quickstart.py](https://github.com/extfancy/TinderBot/blob/master/quickstart.py) will help you be right on track.</br>
+If you're new to coding and just want the script to automatically like, the [auto_swipe.py](https://github.com/extfancy/TinderBot/blob/master/auto_swipe.py) would be what you're looking for!</br>
 *Feel free to make a pull request and contribute to this project!*</br>
 </br>
 ***Enjoy! :)***</br>
-
-***Youtube Video***
-[![Getting +1000 Matches on Tinder in 24 Hours by Building a Tinderbot!](https://img.youtube.com/vi/qCgKlCi6YRI/0.jpg)](https://www.youtube.com/watch?v=qCgKlCi6YRI)
 
 ### Built with
 
@@ -103,7 +91,7 @@ pip3 install -r requirements.txt
 
 ## Usage of Tinderbot
 ### Features
-Features of Tinderbot as demonstrated belowed can be found here: **[Tinderbot features](https://github.com/frederikme/TinderBot/blob/master/DOCUMENTATION.md)**</br>
+Features of Tinderbot as demonstrated belowed can be found here: **[Tinderbot features](https://github.com/extfancy/TinderBot/blob/master/DOCUMENTATION.md)**</br>
 
 ### Demonstration
 #### Setting some Profile settings
@@ -147,11 +135,11 @@ Try to use the code when you can see it running. In case you need to handle some
 I've heard some people had to prove they were not bots by doing some captcha and this could age very poorly when you run it overnight. Myself however, I haven't yet had 'the honour' to be redirected to such a captcha. So if you play it safe, there would be no need to panic.
 
 ### 4) Implement sleeps between swipes 
-This might sounds ridiculous, but most people take a look at the profile before they swipe it. Therefore instantly swiping right on every profile puts you in a 'non humanlike behaviour'-zone, which should be tried to be avoided. Adding a sleep between swipes can be done as described [here](https://github.com/frederikme/TinderBotz/blob/master/DOCUMENTATION.md#liking-geomatches). It is recommended to sleep at least 1 second between every swipe. If you have a rather new profile, then make it 2 or 3 (float numbers like 1.5 are also allowed).
+This might sounds ridiculous, but most people take a look at the profile before they swipe it. Therefore instantly swiping right on every profile puts you in a 'non humanlike behaviour'-zone, which should be tried to be avoided. Adding a sleep between swipes can be done as described [here](https://github.com/extfancy/TinderBotz/blob/master/DOCUMENTATION.md#liking-geomatches). It is recommended to sleep at least 1 second between every swipe. If you have a rather new profile, then make it 2 or 3 (float numbers like 1.5 are also allowed).
 
 ### 5) Implement randomness in your liking and disliking
 Same applies as above; most people dislike some profiles and like others. Not liking EVERY profile could help you stay under the radar.
-Example of how to do so can be found [here](https://github.com/frederikme/TinderBotz/blob/master/DOCUMENTATION.md#liking-geomatches).
+Example of how to do so can be found [here](https://github.com/extfancy/TinderBotz/blob/master/DOCUMENTATION.md#liking-geomatches).
 
 ### 6) Make your profile look as real as possible
 Your profile cannot look in any way like those spambots. Therefore a few things can be done.
@@ -160,24 +148,4 @@ Your profile cannot look in any way like those spambots. Therefore a few things 
 #### 6.2) Link your Instagram/Spotify/Facebook and verify your email
 #### 6.3) Write a good bio, preferably with a minimum of 100 characters
 #### 6.4) Add at least 3-4 images, preferably more
-
-## Support the Repository
-Feel free to make a pull request and contribute to this project.</br>
-If you feel like buying me a drink:
-* [Paypal](https://paypal.me/frederikmees)
-* [Patreon](https://www.patreon.com/frederikme)
-* [Buy Me A Coffee](https://www.buymeacoffee.com/frederikme)
-
-## Other Tinder Repositories
-![Imgur](https://imgur.com/hSVjccD.jpg)
-- [Analysis of Tinder Likes from "Likes Sent"](https://github.com/acarter881/tinder_likes_data) <br>
-This repository uses Selenium, pandas, BeautifulSoup, Excel, and more to glean meaningful insights from Tinder profile cards.
-
-## Disclaimer
-Using automated software on Tinder is against community guidelines and might get your account banned.</br>
-
-Also for the section **data mining**: scraping profiles is not only against Tinder's policies, but it's also against the law in many places.</br>
-People on Tinder did not give their permission to be stored by any other entity than Tinder itself and people have the right to be forgotten. (see: [GDPR in Europe](https://ec.europa.eu/info/law/law-topic/data-protection/data-protection-eu_en))</br>
-
-So here's a reminder that this software is for **educational purposes only** and it cannot be held accountable for any consequences you may face by having used this tool. Neither personal (banned account) nor judicial (lawsuits for privacy violations).
 
